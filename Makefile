@@ -4,5 +4,3 @@ TAG=1.7.x
 build:
 	docker build -t $(IMG):$(TAG) .
 
-push: build
-	docker push $(IMG)
