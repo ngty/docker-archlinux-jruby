@@ -1,5 +1,5 @@
 IMG=ngty/archlinux-jruby
-TAG=1.7.x
+TAG=latest
 
 build:
 	docker build -t $(IMG):$(TAG) .
